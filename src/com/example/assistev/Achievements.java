@@ -22,8 +22,6 @@ public class Achievements extends ListFragment implements LocationListener {
 	private static final String LOG_TAG = "FreEV_Achievments";
 	
 
-
-
 	/*
 	 * 
 	 * SETTING UP TEST ARRAYS FOR CUSTOM LIST VIEW ADAPTER
@@ -31,23 +29,25 @@ public class Achievements extends ListFragment implements LocationListener {
 	ArrayList<AchievementList> rowItems;
 
 	// Test set
-	public static final int[] id_set = new int[] { 0, 1, 2, 3, 4 };
+	public static final int[] id_set = new int[] { 0, 1, 2, 3, 4, 5 };
 	public static final String[] type_set = new String[] { 
 		"Road Trip",
 		"The Quick Charger", 
 		"Car Pool",
 		"Low Accelerator",
-		"Big Credit"
+		"Big Credit",
+		"Couch Driver"
 		};
-	public static final int[] current_set = new int[] { 10, 20, 30, 40, 50 };
-	public static final int[] high_set = new int[] { 100, 100, 100, 100, 100 };
-	public static final int[] credits_set = new int[] { 25, 50, 30, 40, 10 };
+	public static final int[] current_set = new int[] { 10, 20, 30, 40, 50, 3 };
+	public static final int[] high_set = new int[] { 100, 100, 100, 100, 100, 5 };
+	public static final int[] credits_set = new int[] { 25, 50, 30, 40, 10, 15 };
 	public static final String[] measure_set = new String[] {
 		"Drive non-stop for 100Km",
 		"Charge your EV to atleast 80% using a Quick Charger",
 		"Drive together with a passenger",
-		"Hold you acceleration below XX m/sÂ²",
-		"Get 100 Credit Points"
+		"Hold your acceleration below XX m/s²",
+		"Get 100 Credit Points",
+		"Drive 5 trips under 1Km"
 		};
 
 	/*

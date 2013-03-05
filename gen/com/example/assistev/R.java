@@ -21,27 +21,29 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int hindsight=0x7f020000;
+        public static final int ic_launcher=0x7f020001;
     }
     public static final class id {
-        public static final int acc=0x7f08000c;
-        public static final int acctext=0x7f08000b;
+        public static final int acc=0x7f08000d;
+        public static final int acctext=0x7f08000c;
         public static final int achievmentProgress=0x7f080001;
-        public static final int action_settings=0x7f080016;
+        public static final int action_settings=0x7f080017;
         public static final int container=0x7f080006;
-        public static final int credits=0x7f080007;
-        public static final int credits_points=0x7f080008;
-        public static final int layout_achievment=0x7f08000d;
-        public static final int layout_description=0x7f08000f;
-        public static final int layout_hidden=0x7f080011;
-        public static final int li_current=0x7f080012;
-        public static final int li_high=0x7f080014;
-        public static final int li_id=0x7f080013;
-        public static final int li_low=0x7f080015;
-        public static final int li_measure=0x7f080010;
-        public static final int li_type=0x7f08000e;
-        public static final int speed=0x7f08000a;
-        public static final int speedtext=0x7f080009;
+        public static final int credits=0x7f080008;
+        public static final int credits_points=0x7f080009;
+        public static final int imageView1=0x7f080007;
+        public static final int layout_achievment=0x7f08000e;
+        public static final int layout_description=0x7f080010;
+        public static final int layout_hidden=0x7f080012;
+        public static final int li_current=0x7f080013;
+        public static final int li_high=0x7f080015;
+        public static final int li_id=0x7f080014;
+        public static final int li_low=0x7f080016;
+        public static final int li_measure=0x7f080011;
+        public static final int li_type=0x7f08000f;
+        public static final int speed=0x7f08000b;
+        public static final int speedtext=0x7f08000a;
         public static final int text_achievement_credits=0x7f080005;
         public static final int text_achievement_current=0x7f080003;
         public static final int text_achievement_desc=0x7f080002;

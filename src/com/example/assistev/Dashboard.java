@@ -68,7 +68,7 @@ public class Dashboard extends Fragment implements LocationListener {
 			public void onLocationChanged(Location location) {
 
 				float speed = location.getSpeed();
-				String spt = speed + " km/h";
+				String spt = speed*3.6 + " km/h";
 
 				tvspeed.setText(spt);
 				Log.d(LOG_TAG, "Speed: " + speed);

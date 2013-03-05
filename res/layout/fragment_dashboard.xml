@@ -4,43 +4,240 @@
     android:layout_height="match_parent"
     android:layout_gravity="top"
     android:gravity="top"
-    android:orientation="vertical"
-    android:paddingTop="20sp" >
+    android:orientation="vertical" >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#3399FF"
         android:orientation="horizontal"
-        android:weightSum="2" >
+        android:padding="10dp"
+        android:weightSum="5" >
 
-        <TextView
-            android:id="@+id/credits"
-            android:layout_width="fill_parent"
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:paddingLeft="10px"
-            android:text="Credits"
-            android:textSize="40px"
-            android:textStyle="bold" >
-        </TextView>
+            android:src="@drawable/hindsight" />
 
-        <TextView
-            android:id="@+id/credits_points"
-            android:layout_width="fill_parent"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:paddingLeft="10px"
-            android:text="50"
-            android:textSize="40px"
-            android:textStyle="bold" >
-        </TextView>
+            android:background="#3399FF"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#3399FF"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <TextView
+                    android:id="@+id/credits"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="10px"
+                    android:text="Credits"
+                    android:textColor="#FFFFFF"
+                    android:textSize="10sp"
+                    android:textStyle="bold" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/credits_points"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="10px"
+                    android:text="50"
+                    android:textColor="#FFFFFF"
+                    android:textSize="10sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#3399FF"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <TextView
+                    android:id="@+id/credits"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="10px"
+                    android:text="Level"
+                    android:textColor="#FFFFFF"
+                    android:textSize="10sp"
+                    android:textStyle="bold" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/credits_points"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="10px"
+                    android:text="10"
+                    android:textColor="#FFFFFF"
+                    android:textSize="10sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#3399FF"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <TextView
+                    android:id="@+id/credits"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="10px"
+                    android:text="Title"
+                    android:textColor="#FFFFFF"
+                    android:textSize="10sp"
+                    android:textStyle="bold" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/credits_points"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="10px"
+                    android:text="Sees all!"
+                    android:textColor="#FFFFFF"
+                    android:textSize="10sp"
+                    android:textStyle="bold" >
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:weightSum="2" >
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#3399FF"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <TextView
+                android:id="@+id/speedtext"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="10px"
+                android:text="Speed"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/speed"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="10px"
+                android:text="0.0 Km/h"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <TextView
+                android:id="@+id/acctext"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="10px"
+                android:text="Acceleration"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/acc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="10px"
+                android:text="0.0 m/s²"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <TextView
+                android:id="@+id/acctext"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="10px"
+                android:text="Distance"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/acc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="10px"
+                android:text="10KM"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" >
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#3399FF"
+        android:orientation="vertical"
+        android:padding="10dp" >
 
         <TextView
             android:id="@+id/speedtext"
@@ -48,8 +245,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:paddingLeft="10px"
-            android:text="Speed"
-            android:textSize="40px"
+            android:text="DRIVING ADVISOR"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
             android:textStyle="bold" >
         </TextView>
 
@@ -59,8 +257,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:paddingLeft="10px"
-            android:text="0.0 Km/h"
-            android:textSize="40px"
+            android:text="TRY TO AVOID HEAVY ACCELERATION AS IT DRAINS BATTERY"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
             android:textStyle="bold" >
         </TextView>
     </LinearLayout>
@@ -68,28 +267,22 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:weightSum="2" >
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#3399FF"
+        android:orientation="vertical"
+        android:padding="10dp" >
 
         <TextView
-            android:id="@+id/acctext"
+            android:id="@+id/speedtext"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:paddingLeft="10px"
-            android:text="Acceleration"
-            android:textSize="40px"
-            android:textStyle="bold" >
-        </TextView>
-
-        <TextView
-            android:id="@+id/acc"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:paddingLeft="10px"
-            android:text="0.0 m/s²"
-            android:textSize="40px"
+            android:text="2013-03-05: Beastman have been awarded with the &apos;Couch Driver&apos; achievement!"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
             android:textStyle="bold" >
         </TextView>
     </LinearLayout>
